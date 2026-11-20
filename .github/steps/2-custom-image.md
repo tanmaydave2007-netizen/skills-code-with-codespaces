@@ -3,7 +3,7 @@
 The repository didn't specify any configuration for the codespace we just created, so GitHub used a default Docker image. While this is very useful, it won't be consistent and it doesn't version lock our runtime environment. Specifying the configuration is important to keep the development environment repeatable.
 
 Let's do that now by providing a specific docker container image.
-
+ 
 ### How to configure a Codespace?
 
 Configuration is provided directly in the repository via the `.devcontainer/devcontainer.json`. You can even add multiple configurations!
